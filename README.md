@@ -3,7 +3,7 @@
 <div align="center">
   <img src="logo.jpg" alt="logo" width="250"  height="auto" />
   <br/>
-  <h1><b>To Do List</b></h1>
+  <h1><b>Leaderboard</b></h1>
 </div>
 
 # 📗 Table of Contents
