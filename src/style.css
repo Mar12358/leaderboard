@@ -1,3 +1,12 @@
 * {
   background-color: wheat;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.right-section {
+  display: flex;
+  flex-direction: column;
+}
