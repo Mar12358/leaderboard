@@ -74,7 +74,7 @@ This is a Leaderboard website, the project for the 4th block of the 2d module at
 
 - **Add new name and score**
 - **Submit Function (Button)**
-- **Structural design**
+- **Refresh button**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,7 +150,7 @@ N/A
 ## 🔭 Future Features <a name="future-features"></a>
 
 - **Style**
-- **Functions**
+- **Update displayed table when adding a new score**
 - **Deployment**
 
 
