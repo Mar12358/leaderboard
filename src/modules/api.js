@@ -1,7 +1,7 @@
 const id = 'WL5Irjh09ObGUz7KyelO';
 const API = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${id}/scores`;
 
-const addScore = async (player) => {
+export const addScore = async (player) => {
   const newScore = {
     user: player.user,
     score: player.score,
@@ -16,4 +16,15 @@ const addScore = async (player) => {
   });
 };
 
-export default addScore;
+const addToDom = (score) => {
+  
+};
+
+export const getScores = async () => {
+  const data = await fetch(API);
+  const scores = (await data.json()).result;
+  scores.forEach((score) => {
+    addToDom(score);
+  });
+  return scores;
+};
