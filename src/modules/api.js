@@ -17,7 +17,10 @@ export const addScore = async (player) => {
 };
 
 const addToDom = (score) => {
-  
+  const table = document.querySelector('.scores-table');
+  const li = document.createElement('li');
+  li.innerHTML = `${score.user}: ${score.score}`;
+  table.appendChild(li);
 };
 
 export const getScores = async () => {

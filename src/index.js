@@ -12,11 +12,8 @@ container.innerHTML = `
       <span>Recent scores</span>
       <button>Refresh</button>
     </div>
-    <div class="scores-table">
-      <p>Name: 100</p>
-      <p>Name: 20</p>
-      <p>Name: 50</p>
-    </div>
+    <ul class="scores-table">
+    </ul>
   </div>
   <div class="right-section">
     <form id="form">
@@ -42,4 +39,4 @@ submitBtn.addEventListener('click', (e) => {
   }
 });
 
-const scores = getScores();
+getScores();
