@@ -16,18 +16,15 @@ export const addScore = async (player) => {
   });
 };
 
-const addToDom = (score) => {
-  const table = document.querySelector('.scores-table');
-  const li = document.createElement('li');
-  li.innerHTML = `${score.user}: ${score.score}`;
-  table.appendChild(li);
-};
-
 export const getScores = async () => {
   const data = await fetch(API);
   const scores = (await data.json()).result;
+  const scoresTable = document.querySelector('.scores-table');
+  scoresTable.innerHTML = '';
   scores.forEach((score) => {
-    addToDom(score);
+    const li = document.createElement('li');
+    li.innerHTML = `${score.user}: ${score.score}`;
+    scoresTable.appendChild(li);
   });
   return scores;
 };
