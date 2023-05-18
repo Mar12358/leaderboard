@@ -21,8 +21,11 @@ export const getScores = async () => {
   const scores = (await data.json()).result;
   const scoresTable = document.querySelector('.scores-table');
   scoresTable.innerHTML = '';
+  let colorBack = 'grey';
   scores.forEach((score) => {
     const li = document.createElement('li');
+    colorBack = colorBack === 'light' ? 'grey' : 'light';
+    li.className = `${colorBack}`;
     li.innerHTML = `${score.user}: ${score.score}`;
     scoresTable.appendChild(li);
   });
