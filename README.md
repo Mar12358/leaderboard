@@ -149,7 +149,7 @@ N/A
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Style**
+- **Improve Style**
 - **Update displayed table when adding a new score**
 - **Deployment**
 
