@@ -6,8 +6,8 @@ const initiate = () => {
   container.className = 'container';
   container.innerHTML = `
   <div class="left-section">
-    <div class="recent-title">
-      <span>Recent scores</span>
+    <div class="title">
+      <label>Recent scores:</label>
       <button id="refresh">Refresh</button>
     </div>
     <ul class="scores-table">
