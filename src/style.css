@@ -1,5 +1,8 @@
 * {
   background-color: wheat;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -7,7 +10,7 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.right-section {
+#form {
   display: flex;
   flex-direction: column;
 }
