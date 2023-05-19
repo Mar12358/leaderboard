@@ -20,7 +20,9 @@
   "start": "webpack serve --open",
   
     
-  "build": "webpack"
+  "build": "webpack",
+
+  "deploy": "gh-pages -d dist"
   
   },
   
@@ -29,6 +31,7 @@
   "author": "",
   
   "license": "ISC",
+  "homepage": "https://mar12358.github.io/leaderboard/",
   
   "devDependencies": {
   
@@ -79,6 +82,13 @@
   
     
   "webpack-dev-server": "^4.15.0"
+  
+  },
+  
+  "dependencies": {
+  
+    
+  "gh-pages": "^5.0.0"
   
   }
 }
