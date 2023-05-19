@@ -5,6 +5,8 @@ module.exports = {
   mode: 'development',
   entry: {
     index: './src/index.js',
+    apiFunctions: './src/modules/api.js',
+    initFunction: './src/modules/initiate.js',
   },
   devServer: {
     static: './dist',
