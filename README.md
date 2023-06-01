@@ -81,8 +81,7 @@ This is a Leaderboard website, the project for the 4th block of the 2d module at
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<!-- Try it with <a href="https://mar12358.github.io/to-do-list/">gh-pages</a> -->
-Coming Soon...
+Try it with <a href="https://mar12358.github.io/leaderboard/">gh-pages</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
